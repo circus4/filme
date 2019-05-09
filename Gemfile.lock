@@ -80,13 +80,7 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
-<<<<<<< HEAD
     cocoon (1.2.12)
-=======
-
-    cocoon (1.2.12)
-
->>>>>>> dccdd470536c0d3b7c871a06eac36bb9135bd27a
     coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -153,18 +147,11 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-<<<<<<< HEAD
     pry-byebug (3.7.0)
       byebug (~> 11.0)
       pry (~> 0.10)
     pry-rails (0.3.9)
       pry (>= 0.10.4)
-=======
-
-    pry-rails (0.3.9)
-      pry (>= 0.10.4)
-
->>>>>>> dccdd470536c0d3b7c871a06eac36bb9135bd27a
     public_suffix (3.0.3)
     puma (3.12.1)
     rack (2.0.7)
@@ -286,10 +273,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
-<<<<<<< HEAD
   pry-byebug
-=======
->>>>>>> dccdd470536c0d3b7c871a06eac36bb9135bd27a
   pry-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
