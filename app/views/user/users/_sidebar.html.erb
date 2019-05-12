@@ -1,7 +1,9 @@
-　  <ul class="sidebar">
-     画像表示
-     <li class="active bg-secondary"><%= link_to "プロフィール編集",edit_user_path(user) %></li>
-     <li><%= link_to "購入履歴",user_histories_path %></li>
-     <li><%= link_to "お気に入り", favorites_path(user) %></li>
-     <li><%= link_to "見たことある映画", user_path(user) %></li>
-　  </ul>
+
+<%= attachment_image_tag user, :image, :fill, 100, 100, fallback: "no_image.png",class:"user_profile_image" %>
+<%= f.attachment_field :image,class:"upload" %>
+<ul class="sidebar">
+  <li class="active bg-secondary"><%= link_to "プロフィール編集",edit_user_path(user) %></li>
+  <li><%= link_to "購入履歴",user_histories_path %></li>
+  <li><%= link_to "お気に入り", favorites_path(user) %></li>
+  <li><%= link_to "見たことある映画", user_path(user) %></li>
+</ul>
