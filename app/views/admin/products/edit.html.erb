@@ -11,7 +11,7 @@
       <h2 class="text-center profil-title">CD編集</h2>
   
       <%= form_for(@product, url: admin_product_path) do |f| %>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <%= attachment_image_tag @product, :image,:size => "100x100" %>
           <%= f.attachment_field :image %>
         </div>
